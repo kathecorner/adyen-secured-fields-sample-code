@@ -32,12 +32,6 @@ $channel = 'Web';
 /** @var $sessionValidity - the time the offer will be valid for */
 $sessionValidity = date('Y-m-d\TH:i:s\Z', strtotime('+1 hour'));
 
-$installmentOptions = (
-        'card'=(
-            'values': [2, 3, 5],
-            'plans': ['regular', 'revolving']
-        )
-    );
 
 
 return array(
