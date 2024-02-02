@@ -46,6 +46,5 @@ return array(
     'countryCode' => $countryCode,
     'shopperReference' => $shopperReference,
     'shopperLocale' => $shopperLocale,
-    'reference' => $reference,
-    'installmentOptions' => $installmentOptions
+    'reference' => $reference
 );
